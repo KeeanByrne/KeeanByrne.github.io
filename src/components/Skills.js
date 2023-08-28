@@ -4,6 +4,8 @@ import 'react-multi-carousel/lib/styles.css';
 import meter1 from '../assets/img/meter1.svg';
 import meter2 from '../assets/img/meter2.svg';
 import meter3 from '../assets/img/meter3.svg';
+import icon2 from '../assets/img/icon2.png';
+import icon4 from '../assets/img/icon4.png';
 import colorSharp from '../assets/img/color-sharp.png';
 
 
@@ -37,23 +39,25 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p>At College, I have completed courses in C#, Java, SQL and Kotlin and I am currently learning HTML, CSS and Javascript</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <img src={icon2} alt="SQL" />
+                                    <h5>SQL</h5>
+                                    
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Project 2</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
+                                    <h5>C#</h5>
+                                    
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Project 3</h5>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-plain.svg" alt="Kotlin" />
+                                    <h5>Kotlin</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Project 4</h5>
+                                    <img src={icon4} alt="Image" />
+                                    <h5>Java</h5>
                                 </div>
                             </Carousel>
                         </div>
