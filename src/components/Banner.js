@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowUpRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../assets/img/header-img.svg';
 
 export const Banner = () => {
@@ -50,7 +50,7 @@ export const Banner = () => {
                         <span className="tagline">Welcome To My Portfolio</span>
                         <h1>{'Hi Im Keean '}<span className="wrap">{ text }</span></h1>
                         <p>I am currently completing my final year at Varsity College where I am studying a Bachelor of Computer and Information Sciences in Application Development. My objective is to further enhance my skills and knowledge whilst diving into the creative world of software development. In my current free time I am either working on various side projects (such as my portfolio website, coming soon…) or perfecting my golf swing on the course.  </p>
-                        <button onClick={() => console.log('connect')}>Lets Connect <ArrowUpRightCircle size={25} /></button>
+                        <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />

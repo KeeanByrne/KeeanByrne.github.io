@@ -3,7 +3,8 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/github-mark-white.png'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon3 from '../assets/img/icon5.png'
+
 
 export const NavBar = () => {
 
@@ -48,7 +49,7 @@ export const NavBar = () => {
                 <div className="social-icon">
                   <a href="https://www.linkedin.com/in/keean-byrne-98598021b/"><img src={navIcon1} alt="LinkedIn" /></a>
                   <a href="https://github.com/KeeanByrne"><img src={navIcon2} alt="GitHub" /></a>
-                  <a href="keeanbyrne00@gmail.com"><img src={navIcon3} alt="keeanbyrne00@gmail.com" /></a>
+                  <a href="mailto:keeanbyrne00@gmail.com"><img src={navIcon3} alt="keeanbyrne00@gmail.com" /></a>
                 </div>
                 
               </span>

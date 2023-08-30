@@ -1,11 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
 import icon2 from '../assets/img/icon2.png';
 import icon4 from '../assets/img/icon4.png';
+import icon9 from '../assets/img/icon9.png';
 import colorSharp from '../assets/img/color-sharp.png';
 
 
@@ -42,7 +40,7 @@ export const Skills = () => {
                             <p>At College, I have completed courses in C#, Java, SQL and Kotlin and I am currently learning HTML, CSS and Javascript</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={icon2} alt="SQL" />
+                                    <img src={icon9} alt="SQL" />
                                     <h5>SQL</h5>
                                     
                                 </div>
