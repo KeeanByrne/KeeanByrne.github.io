@@ -6,7 +6,7 @@ import headerImg from '../assets/img/header-img.svg';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Developer", "Android Developer", "Beginner Web Designer", "Golfer"];
+    const toRotate = ["Student", "Software Developer", "Android Developer", "Beginner Web Designer", "Golfer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100 );
     const period = 2000;
