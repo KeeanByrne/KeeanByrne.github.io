@@ -40,7 +40,7 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div>
                 <h2>Projects</h2>
                 <p>Below are some of the projects I have worked on during 2023. These are projects that I take on during my spare time to further enhance my development skill set. </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -55,7 +55,6 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
@@ -76,7 +75,6 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <p>More projects that I have worked on!</p>
                     </Tab.Pane>
-                  </Tab.Content>
                 </Tab.Container>
               </div>}
             </TrackVisibility>
